@@ -1,0 +1,6 @@
+CMD ["python", "./extract_tables.py", "awsUser", "awsPass"[, "cik", "acc"]]
+
+sys.argv[0] -> AWS_ACCESS_KEY_ID	Required
+sys.argv[1] -> AWS_SECRET_ACCESS_KEY	Required
+sys.argv[2] -> Central Index Key	Default = 0000051143 for IBM
+sys.argv[3] -> Accession Number		Defualt = 0000051143-13-000007 for IBM
